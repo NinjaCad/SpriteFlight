@@ -148,34 +148,30 @@
     </section>
 
     <section id="content">
-      <div class="content-container">
-        <div id="unity-container" class="unity-desktop">
-          <canvas id="unity-canvas" width=960 height=600></canvas>
-          <div id="unity-loading-bar">
-            <div id="unity-logo"></div>
-            <div id="unity-progress-bar-empty">
-              <div id="unity-progress-bar-full"></div>
-            </div>
-          </div>
-          <!--<div id="unity-mobile-warning">
-            WebGL builds are not supported on mobile devices.
-          </div>-->
-          <div id="unity-footer">
-            <div id="unity-webgl-logo"></div>
-            <div id="unity-fullscreen-button"></div>
-            <!--<div id="unity-build-title">Time</div>-->
+      <div id="unity-container" class="unity-desktop">
+        <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
+        <div id="unity-loading-bar">
+          <div id="unity-logo"></div>
+          <div id="unity-progress-bar-empty">
+            <div id="unity-progress-bar-full"></div>
           </div>
         </div>
-        <div class="content" style="padding-top: 100px;">
-          <div class="card">
-            <h2>Instructions</h2>
-            <p>
-              Press and hold to move space ship<br>
-              Avoid the hexagons and the edge of the screen<br>
-              The longer you stay alive the more points you earn<br>
-              Get the most points possible<br>
-            </p>
-          </div>
+        <div id="unity-warning"> </div>
+        <div id="unity-footer">
+          <div id="unity-logo-title-footer"></div>
+          <div id="unity-fullscreen-button"></div>
+          <div id="unity-build-title">Sprite Flight</div>
+        </div>
+      </div>
+      <div class="content" style="padding-top: 100px;">
+        <div class="card">
+          <h2>Instructions</h2>
+          <p>
+            Press and hold to move space ship<br>
+            Avoid the hexagons and the edge of the screen<br>
+            The longer you stay alive the more points you earn<br>
+            Get the most points possible<br>
+          </p>
         </div>
       </div>
     </section>

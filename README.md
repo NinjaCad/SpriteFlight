@@ -45,5 +45,3 @@
 * Add a high score system
 
 ---
-
-If you want, I can make this even tighter (like a one-paragraph version) or format it specifically for GitHub.
